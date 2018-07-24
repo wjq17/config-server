@@ -1,19 +1,4 @@
-##添加配置服务的基本信息以及git仓库的相关信息
-#spring.application.name=config_server
-#server.port=7001
-#
-##配置仓库的位置
-##spring.cloud.config.server.git.url= http://git.oschina.net/didispace/SpringCloud-Learning/
-#spring.cloud.config.server.git.uri= https://github.com/wjq17/java-learning/
-##配置仓库路径下的相对搜索位置，可以配置多个
-#spring.cloud.config.server.git.search-paths=/config-repo
-##更改默认搜索分支,此处需要按照环境更改
-#spring.cloud.config.server.git.default-label=master
-##git仓库的用户名
-#spring.cloud.config.server.git.username = junqwhu@qq.com
-##git仓库的用户密码
-#server.cloud.config.server.git.password = 199512wjq
-#
+
 server:
   port: 7001
 spring:
@@ -25,5 +10,5 @@ spring:
         git:
           uri: https://github.com/wjq17/config-repo/
           search-paths: config-repo
-          username: junqwhu@qq.com
-          password: 199512wjq
+          username: 
+          password: 
